@@ -1,0 +1,59 @@
+body{
+    padding: 0;
+    margin: 0;
+    
+}
+.navbar{
+    background-color: gray;
+    margin-top: 10px;
+}
+
+ul li {
+    list-style-type: none;
+    display:block;
+    font-size: 20px;
+    color: white;
+    text-align: right;
+    padding: 5px;
+    
+}
+
+
+.home, .projects, .contacts{ 
+    padding: 20px;
+    margin: 30 0;
+    
+}
+.home, .contacts{
+    background-color: beige;
+    
+}
+.projects{
+    background-color: maroon;
+    color: white;
+}
+ul{
+    text-align: right;
+}
+ul li{
+    display: inline;
+}
+li a{
+    
+    color: white;
+    text-decoration: none;
+
+}
+
+.dropdown-content {
+    display: none;
+    top: 100%;
+    position: absolute;
+    z-index: 1;
+    padding: 3px;
+    color: white;
+    background-color: brown;
+}
+.drop-down:hover .dropdown-content{
+        display: block;
+}
